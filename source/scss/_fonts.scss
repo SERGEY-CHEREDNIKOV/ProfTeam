@@ -1,29 +1,44 @@
 @font-face {
-    font-family: 'IntroScriptR'; 
-    src: url('../fonts/IntroScriptR-H2Base.woff2') format('woff2'),
-        url('../fonts/IntroScriptR-H2Base.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay'; 
-    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Circe';
-    src: url('../fonts/Circe-Bold.woff.woff') format('woff');
-    font-weight: bold; 
-    font-style: normal;    
-}  
+    font-family: 'PT Sans Narrow';
+    src: url('../fonts/PTSans-Narrow.woff2') format('woff2'),
+        url('../fonts/PTSans-Narrow.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'Circe';
-    src: url('../fonts/Circe-Regular.woff') format('woff');
-    font-weight: 400;
+    font-family: 'PT Sans Narrow';
+    src: url('../fonts/PTSans-NarrowBold.woff2') format('woff2'),
+        url('../fonts/PTSans-NarrowBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('../fonts/AlegreyaSans-Regular.woff2') format('woff2'),
+        url('../fonts/AlegreyaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
