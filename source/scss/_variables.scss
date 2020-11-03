@@ -1,0 +1,32 @@
+//color
+$white: #FFFFFF;
+$black: #000000;
+$smokyWhite: #EBEBEB;
+$lightGrey: #EFEFEF;
+$extraLightGrey: #F2F2F2;
+
+//fonts
+%Inter-Bold {
+    font-family: 'Inter-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%Inter-SemiBold {
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-weight: 600;
+}
+
+%PTSans-Narrow {
+    font-family: 'PTSans-Narrow', sans-serif;
+    font-weight: 400;
+}
+
+%PTSans-NarrowBold {
+    font-family: 'PTSans-NarrowBold', sans-serif;
+    font-weight: 700;
+}
+
+%AlegreyaSans-Regular {
+    font-family: 'AlegreyaSans-Regular', sans-serif;
+    font-weight: 400;
+}
