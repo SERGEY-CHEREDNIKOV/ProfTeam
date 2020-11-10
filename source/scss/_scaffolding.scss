@@ -12,6 +12,7 @@ body {
     font-style: normal;
     font-size: 18px;
     line-height: 23px;
+    letter-spacing: 1px;
     color: $black;
     background-color: $white;
     margin: 0;
@@ -76,4 +77,8 @@ button {
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 3px;
+}
+
+.title--product {
+    color: $white;
 }
