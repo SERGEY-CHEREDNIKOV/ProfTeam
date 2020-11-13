@@ -1,0 +1,35 @@
+.contact-us__wrapper{
+    background-color: $extraLightGrey;
+    max-width: 926px;
+    margin: 0 auto;
+    padding: 80px 193px;
+}
+
+.contact-us__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-us__input {
+    max-width: 540px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    padding: 12px 18px;
+}
+
+.contact-us__input:nth-child(3n+3) {
+    margin-bottom: 40px;
+}
+
+.contact-us__button {
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+    min-height: 50px;
+}
