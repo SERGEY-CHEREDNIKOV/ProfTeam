@@ -41,3 +41,19 @@
 .description__image-little:last-child {
     margin-right: 0;
 }
+
+
+@media (max-width: 1250px) {
+    .description__wrapper-content {
+        max-width: 100%;
+    }
+    .description__wrapper-image {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .description__box-image {
+        display: none;
+    }
+}

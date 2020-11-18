@@ -89,3 +89,33 @@
 .header__button {
     margin-bottom: 65px;
 }
+
+@media (max-width: 985px) {
+    .header__item--logo {
+        order: -1;
+    }
+}
+
+@media (max-width: 650px) {
+    .header__title {
+        text-align: center;
+    }
+    .header__button {
+        width: 250px;
+        margin: 0 auto 65px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__title {
+        font-size: 35px;
+        line-height: 43px;
+        letter-spacing: 2px;
+    }
+
+    .header__text-title {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+}

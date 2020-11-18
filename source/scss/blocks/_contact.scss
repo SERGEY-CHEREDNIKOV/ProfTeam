@@ -33,3 +33,18 @@
     width: 250px;
     min-height: 50px;
 }
+
+@media (max-width: 985px) {
+    .contact-us__wrapper {
+        padding: 65px;
+    }
+    .contact-us__input {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-us__wrapper {
+        padding: 50px 13px;
+    }
+}

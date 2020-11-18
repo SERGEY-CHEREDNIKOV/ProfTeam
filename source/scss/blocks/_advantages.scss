@@ -4,6 +4,8 @@
 
 .advantages__wrapper {
     position: relative;
+    max-width: 1650px;
+    margin: 0 auto;
 }
 
 .advantages__container { 
@@ -47,4 +49,28 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 1250px) {
+    .advantages__container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .advantages__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .advantages__image-box {
+        position: static;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .advantages__wrapper-content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }

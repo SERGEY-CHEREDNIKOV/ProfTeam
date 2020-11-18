@@ -82,3 +82,17 @@ button {
 .title--product {
     color: $white;
 }
+
+@media (max-width: 985px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .title {
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+}

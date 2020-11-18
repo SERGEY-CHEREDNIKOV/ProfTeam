@@ -18,3 +18,15 @@
     padding-bottom: 40px;
     opacity: 0.5;
 }
+
+@media (max-width: 985px) {
+    .review__title {
+        margin-bottom: 40px;
+    }
+    .review__text {
+        padding: 20px 25px;
+    }
+    .review__author {
+        padding-bottom: 20px;
+    }
+}
